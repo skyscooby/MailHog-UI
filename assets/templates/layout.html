@@ -81,55 +81,6 @@
             </li>
           </ul>
 
-          <div class="well jim-well">
-            <h3>Jim</h3>
-            <p>
-              Jim is a chaos monkey.<br>
-              <a href="https://github.com/mailhog/MailHog/blob/master/docs/JIM.md" target="_blank">Find out more at GitHub</a>.
-            </p>
-            <div ng-if="jim">
-              <a href="#" ng-click="disableJim()" class="btn btn-xs btn-danger">Disable Jim</a>
-            </div>
-            <div ng-if="jim" class="jim-config">
-              <div class="jim-config-item">
-                <strong>Accept chance</strong>
-                <span>{{ jim.AcceptChance * 100 }}%</span>
-              </div>
-              <div class="jim-config-item">
-                <strong>Disconnect chance</strong>
-                <span>{{ jim.DisconnectChance * 100 }}%</span>
-              </div>
-              <div class="jim-config-item">
-                <strong>Link speed affect chance</strong>
-                <span>{{ jim.LinkSpeedAffect * 100}}%</span>
-              </div>
-              <div class="jim-config-item">
-                <strong>Link speed minimum</strong>
-                <span>{{ jim.LinkSpeedMin }}kbps</span>
-              </div>
-              <div class="jim-config-item">
-                <strong>Link speed maximum</strong>
-                <span>{{ jim.LinkSpeedMax }}kbps</span>
-              </div>
-              <div class="jim-config-item">
-                <strong>Reject sender chance</strong>
-                <span>{{ jim.RejectSenderChance * 100 }}%</span>
-              </div>
-              <div class="jim-config-item">
-                <strong>Reject recipient chance</strong>
-                <span>{{ jim.RejectRecipientChance * 100 }}%</span>
-              </div>
-              <div class="jim-config-item">
-                <strong>Reject auth chance</strong>
-                <span>{{ jim.RejectAuthChance * 100 }}%</span>
-              </div>
-            </div>
-            <div ng-if="!jim">
-              <a href="#" ng-click="enableJim()" class="btn btn-xs btn-default">Enable Jim</a>
-            </div>
-          </div>
-        </div>
-
         <div class="col-md-10 col-sm-9 content">
           [: .Content :]
         </div>
