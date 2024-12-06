@@ -12,7 +12,7 @@ import (
 	"github.com/skyscooby/MailHog-UI/config"
 	"github.com/skyscooby/MailHog-UI/web"
 	comcfg "github.com/skyscooby/MailHog/config"
-	"github.com/mailhog/http"
+	http "github.com/mailhog/MailHog-http"
 )
 
 var conf *config.Config
