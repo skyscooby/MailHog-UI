@@ -59,26 +59,6 @@
   color: red;
 }
 
-/*******/
-/* Jim */
-.jim-well {
-  margin-top: 20px;
-}
-
-.jim-well h3 {
-  margin-top: 0;
-}
-
-.jim-config {
-  margin-top: 3px;
-  padding: 5px;
-  font-size: 0.9em;
-}
-
-.jim-config .jim-config-item {
-  margin-bottom: 2px;
-}
-
 /***********/
 /* Toolbar */
 .toolbar {
